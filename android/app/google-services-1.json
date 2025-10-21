@@ -1,0 +1,78 @@
+{
+  "project_info": {
+    "project_number": "909337229171",
+    "project_id": "wisataku-capstone",
+    "storage_bucket": "wisataku-capstone.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909337229171:android:e148269b479ad303657706",
+        "android_client_info": {
+          "package_name": "com.example.capstone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909337229171-5bjfud82kcut7m5lemb1adjakdjdcqd9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.capstone",
+            "certificate_hash": "36b9a98a7371d6c2d3f602f45e5180d344f08cb5"
+          }
+        },
+        {
+          "client_id": "909337229171-9bl1l1556g529tj71mqide534jnm26vl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.capstone",
+            "certificate_hash": "0b8545c2d224794d9a27f386935546d10f1e12a7"
+          }
+        },
+        {
+          "client_id": "909337229171-madtfj3kvmcffbjphovs9c3nqprdk19t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.capstone",
+            "certificate_hash": "bf8c8f06d0e53390cc0319c5ce0ad33434c87a97"
+          }
+        },
+        {
+          "client_id": "909337229171-p13kq8fpu72fd6jmm964njaoq5mt9mkt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.capstone",
+            "certificate_hash": "359cc51ffb7ae36758c1e64bcbcdd6ca5e7f761c"
+          }
+        },
+        {
+          "client_id": "909337229171-a6lngbce4i3mubb27fc0m47rrfm5l6uh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXcVXB2zxVmHfKYbM8VlMMPl0KkqRs72o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909337229171-a6lngbce4i3mubb27fc0m47rrfm5l6uh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "909337229171-ii3ldj2hhod964b2cc698eravic8g7rs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.capstone"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

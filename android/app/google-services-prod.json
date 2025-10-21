@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "909337229171",
+    "project_id": "wisataku-capstone",
+    "storage_bucket": "wisataku-capstone.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909337229171:android:e148269b479ad303657706",
+        "android_client_info": {
+          "package_name": "com.example.capstone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXcVXB2zxVmHfKYbM8VlMMPl0KkqRs72o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
