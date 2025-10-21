@@ -1045,219 +1045,144 @@ class TourismDetailData {
   static List<Review> getReviewsByDestinationId(int id) {
     final reviewsMap = {
       1: [
-        Review(
-          name: 'Andi Setiawan',
-          rating: 5,
-          date: '3 hari lalu',
-          comment:
-              'Pantainya bagus banget! Hutan mangrovenya keren buat foto-foto.',
-          avatar: 'AS',
-          verified: true,
-        ),
+        Review(name: 'Andi Setiawan', rating: 5, date: '3 hari lalu', comment: 'Pantainya bagus banget! Hutan mangrovenya keren buat foto-foto.', avatar: 'AS', verified: true),
+        Review(name: 'Rina Maharani', rating: 4, date: '2 hari lalu', comment: 'Cocok untuk liburan keluarga, pasirnya halus dan aman untuk anak-anak.', avatar: 'RM', verified: true),
+        Review(name: 'Bayu Prasetyo', rating: 5, date: '1 hari lalu', comment: 'Sunset di sini luar biasa, nggak kalah dari pantai terkenal lainnya!', avatar: 'BP', verified: true),
+        Review(name: 'Citra Lestari', rating: 4, date: '4 hari lalu', comment: 'Area parkir agak jauh tapi pemandangan sebanding dengan perjalanan.', avatar: 'CL', verified: true),
+        Review(name: 'Dedi Saputra', rating: 5, date: '3 hari lalu', comment: 'Airnya jernih dan spot foto instagramable banget, recommended!', avatar: 'DS', verified: true),
       ],
       2: [
-        Review(
-          name: 'Siti Nurhaliza',
-          rating: 4,
-          date: '5 hari lalu',
-          comment: 'Tempat bersejarah yang terawat baik. Cocok untuk edukasi.',
-          avatar: 'SN',
-          verified: true,
-        ),
+        Review(name: 'Siti Nurhaliza', rating: 4, date: '5 hari lalu', comment: 'Tempat bersejarah yang terawat baik. Cocok untuk edukasi.', avatar: 'SN', verified: true),
+        Review(name: 'Agus Santoso', rating: 5, date: '2 hari lalu', comment: 'Guide-nya informatif, setiap artefak dijelaskan dengan detail.', avatar: 'AS', verified: true),
+        Review(name: 'Lina Wijaya', rating: 4, date: '3 hari lalu', comment: 'Bangunan klasik dan fotogenik, cocok untuk dokumentasi pribadi.', avatar: 'LW', verified: true),
+        Review(name: 'Fajar Hidayat', rating: 5, date: '1 minggu lalu', comment: 'Koleksi museum lengkap, suasana tenang dan nyaman untuk belajar sejarah.', avatar: 'FH', verified: true),
+        Review(name: 'Maya Putri', rating: 4, date: '4 hari lalu', comment: 'Beberapa spot agak panas di siang hari, tapi worth it untuk dikunjungi.', avatar: 'MP', verified: true),
       ],
       3: [
-        Review(
-          name: 'Dedi Prasetyo',
-          rating: 5,
-          date: '4 hari lalu',
-          comment: 'Arsitekturnya unik banget! Banyak spot foto instagramable.',
-          avatar: 'DP',
-          verified: true,
-        ),
+        Review(name: 'Dedi Prasetyo', rating: 5, date: '4 hari lalu', comment: 'Arsitekturnya unik banget! Banyak spot foto instagramable.', avatar: 'DP', verified: true),
+        Review(name: 'Rian Kurniawan', rating: 5, date: '2 hari lalu', comment: 'Pemandangan sunrise di puncak luar biasa, jangan sampai kelewatan.', avatar: 'RK', verified: true),
+        Review(name: 'Sari Ananda', rating: 4, date: '1 hari lalu', comment: 'Trekking menantang tapi jalurnya jelas dan aman.', avatar: 'SA', verified: true),
+        Review(name: 'Hadi Pratama', rating: 5, date: '3 hari lalu', comment: 'Bawa jaket tebal, anginnya kencang di atas, tapi pemandangan sebanding!', avatar: 'HP', verified: true),
+        Review(name: 'Nina Rahma', rating: 5, date: '5 hari lalu', comment: 'Spot foto banyak dan sangat instagramable, cocok untuk traveler muda.', avatar: 'NR', verified: true),
       ],
       4: [
-        Review(
-          name: 'Fahmi Rahman',
-          rating: 5,
-          date: '1 minggu lalu',
-          comment: 'Pendakian menantang tapi pemandangannya worth it banget!',
-          avatar: 'FR',
-          verified: true,
-        ),
+        Review(name: 'Fahmi Rahman', rating: 5, date: '1 minggu lalu', comment: 'Pendakian menantang tapi pemandangannya worth it banget!', avatar: 'FR', verified: true),
+        Review(name: 'Indah Permata', rating: 4, date: '3 hari lalu', comment: 'Jalur trekking jelas, cocok untuk pemula juga.', avatar: 'IP', verified: true),
+        Review(name: 'Ricky Adrian', rating: 5, date: '2 hari lalu', comment: 'Pemandangan puncak memukau, sunrise-nya luar biasa.', avatar: 'RA', verified: true),
+        Review(name: 'Dewi Anggraini', rating: 4, date: '4 hari lalu', comment: 'Bawa air minum banyak karena jalurnya lumayan panjang.', avatar: 'DA', verified: true),
+        Review(name: 'Arif Nugroho', rating: 5, date: '1 hari lalu', comment: 'Spot foto di tebing sangat dramatic, sangat direkomendasikan.', avatar: 'AN', verified: true),
       ],
       5: [
-        Review(
-          name: 'Dewi Lestari',
-          rating: 5,
-          date: '2 hari lalu',
-          comment: 'Candi Buddha terbesar di dunia memang tidak mengecewakan!',
-          avatar: 'DL',
-          verified: true,
-        ),
+        Review(name: 'Dewi Lestari', rating: 5, date: '2 hari lalu', comment: 'Candi Buddha terbesar di dunia memang tidak mengecewakan!', avatar: 'DL', verified: true),
+        Review(name: 'Hendra Gunawan', rating: 4, date: '3 hari lalu', comment: 'Sangat bersih dan terawat, cocok untuk belajar sejarah.', avatar: 'HG', verified: true),
+        Review(name: 'Nadia Pratiwi', rating: 5, date: '1 hari lalu', comment: 'Arsitektur candi menakjubkan, rasanya seperti kembali ke masa lalu.', avatar: 'NP', verified: true),
+        Review(name: 'Budi Santoso', rating: 5, date: '4 hari lalu', comment: 'Spot sunrise di halaman candi cantik banget untuk foto.', avatar: 'BS', verified: true),
+        Review(name: 'Mira Handayani', rating: 4, date: '2 hari lalu', comment: 'Agak ramai di akhir pekan, tapi masih nyaman untuk dikunjungi.', avatar: 'MH', verified: true),
       ],
       6: [
-        Review(
-          name: 'Rama Wijaya',
-          rating: 5,
-          date: '3 hari lalu',
-          comment:
-              'Pusat belanja dan kuliner Jogja! Suasana malam hari sangat meriah.',
-          avatar: 'RW',
-          verified: true,
-        ),
+        Review(name: 'Rama Wijaya', rating: 5, date: '3 hari lalu', comment: 'Pusat belanja dan kuliner Jogja! Suasana malam hari sangat meriah.', avatar: 'RW', verified: true),
+        Review(name: 'Tia Handayani', rating: 4, date: '2 hari lalu', comment: 'Pedagang ramah, harga wajar, jangan lupa coba jajanan lokal.', avatar: 'TH', verified: true),
+        Review(name: 'Fajar Putra', rating: 5, date: '1 hari lalu', comment: 'Mal ini lengkap dan bersih, cocok untuk weekend bersama teman.', avatar: 'FP', verified: true),
+        Review(name: 'Nina Larasati', rating: 4, date: '4 hari lalu', comment: 'Suasana malamnya asik, banyak spot foto cantik.', avatar: 'NL', verified: true),
+        Review(name: 'Aditya Prakoso', rating: 5, date: '3 hari lalu', comment: 'Tempat makan banyak pilihannya, recommended untuk kuliner.', avatar: 'AP', verified: true),
       ],
       7: [
-        Review(
-          name: 'Lina Simanjuntak',
-          rating: 5,
-          date: '1 minggu lalu',
-          comment:
-              'Danau terbesar di Indonesia! Pemandangan alamnya luar biasa indah.',
-          avatar: 'LS',
-          verified: true,
-        ),
+        Review(name: 'Lina Simanjuntak', rating: 5, date: '1 minggu lalu', comment: 'Danau terbesar di Indonesia! Pemandangan alamnya luar biasa indah.', avatar: 'LS', verified: true),
+        Review(name: 'Rizky Maulana', rating: 5, date: '3 hari lalu', comment: 'Airnya tenang dan jernih, cocok untuk piknik keluarga.', avatar: 'RM', verified: true),
+        Review(name: 'Sinta Wulandari', rating: 4, date: '2 hari lalu', comment: 'Jalur jalan kaki nyaman, banyak spot foto natural.', avatar: 'SW', verified: true),
+        Review(name: 'Bagas Pratama', rating: 5, date: '1 hari lalu', comment: 'Sunset di danau ini luar biasa, bawa kamera bagus!', avatar: 'BP', verified: true),
+        Review(name: 'Dewi Anggraeni', rating: 4, date: '4 hari lalu', comment: 'Ramai di akhir pekan, tapi suasananya tetap indah.', avatar: 'DA', verified: true),
       ],
       8: [
-        Review(
-          name: 'Yoga Pratama',
-          rating: 5,
-          date: '4 hari lalu',
-          comment:
-              'Kawah dengan air putih kehijauan yang unik. Suasananya sejuk!',
-          avatar: 'YP',
-          verified: true,
-        ),
+        Review(name: 'Yoga Pratama', rating: 5, date: '4 hari lalu', comment: 'Kawah dengan air putih kehijauan yang unik. Suasananya sejuk!', avatar: 'YP', verified: true),
+        Review(name: 'Fikri Andika', rating: 4, date: '3 hari lalu', comment: 'Sedikit berdebu, tapi view kawahnya keren banget.', avatar: 'FA', verified: true),
+        Review(name: 'Nadia Putri', rating: 5, date: '2 hari lalu', comment: 'Jangan lupa bawa jaket karena anginnya dingin.', avatar: 'NP', verified: true),
+        Review(name: 'Raka Santoso', rating: 5, date: '1 hari lalu', comment: 'Spot foto epic, terutama saat matahari terbit.', avatar: 'RS', verified: true),
+        Review(name: 'Maya Sari', rating: 4, date: '5 hari lalu', comment: 'Sedikit ramai di hari libur, tapi masih nyaman.', avatar: 'MS', verified: true),
       ],
       9: [
-        Review(
-          name: 'Bella Syahputri',
-          rating: 4,
-          date: '5 hari lalu',
-          comment:
-              'Istana yang megah dengan arsitektur campuran. Sangat fotogenik!',
-          avatar: 'BS',
-          verified: true,
-        ),
+        Review(name: 'Bella Syahputri', rating: 4, date: '5 hari lalu', comment: 'Istana yang megah dengan arsitektur campuran. Sangat fotogenik!', avatar: 'BS', verified: true),
+        Review(name: 'Aditya Nugraha', rating: 5, date: '3 hari lalu', comment: 'Guide sangat ramah, menjelaskan sejarah istana dengan detail.', avatar: 'AN', verified: true),
+        Review(name: 'Cindy Natalia', rating: 4, date: '2 hari lalu', comment: 'Taman istana luas, cocok untuk anak-anak bermain.', avatar: 'CN', verified: true),
+        Review(name: 'Fajar Putra', rating: 5, date: '1 hari lalu', comment: 'Interior istana indah, banyak spot foto bagus.', avatar: 'FP', verified: true),
+        Review(name: 'Rizki Alam', rating: 4, date: '4 hari lalu', comment: 'Sedikit ramai di siang hari, tapi pengalaman tetap menyenangkan.', avatar: 'RA', verified: true),
       ],
       10: [
-        Review(
-          name: 'Made Sudirman',
-          rating: 5,
-          date: '2 hari lalu',
-          comment:
-              'Sunset di Tanah Lot tidak ada duanya! Tempat yang sakral dan indah.',
-          avatar: 'MS',
-          verified: true,
-        ),
+        Review(name: 'Made Sudirman', rating: 5, date: '2 hari lalu', comment: 'Sunset di Tanah Lot tidak ada duanya! Tempat yang sakral dan indah.', avatar: 'MS', verified: true),
+        Review(name: 'Wayan Adi', rating: 5, date: '1 hari lalu', comment: 'Bawa kamera, view sunset spektakuler!', avatar: 'WA', verified: true),
+        Review(name: 'Ni Luh Putri', rating: 4, date: '3 hari lalu', comment: 'Ramai tapi teratur, tetap nyaman untuk jalan-jalan.', avatar: 'NP', verified: true),
+        Review(name: 'I Made Suardana', rating: 5, date: '2 hari lalu', comment: 'Pantainya bersih, fasilitas cukup lengkap.', avatar: 'IM', verified: true),
+        Review(name: 'Putri Ayu', rating: 4, date: '4 hari lalu', comment: 'Cocok untuk wisata sore bersama keluarga.', avatar: 'PA', verified: true),
       ],
       11: [
-        Review(
-          name: 'Andra Kusuma',
-          rating: 4,
-          date: '6 hari lalu',
-          comment: 'Museum bersejarah di tengah Kota Tua. Bangunannya klasik!',
-          avatar: 'AK',
-          verified: true,
-        ),
+        Review(name: 'Andra Kusuma', rating: 4, date: '6 hari lalu', comment: 'Museum bersejarah di tengah Kota Tua. Bangunannya klasik!', avatar: 'AK', verified: true),
+        Review(name: 'Rizal Fadli', rating: 5, date: '2 hari lalu', comment: 'Koleksi museum lengkap dan informatif.', avatar: 'RF', verified: true),
+        Review(name: 'Maya Sari', rating: 4, date: '1 hari lalu', comment: 'Bangunan klasik bagus untuk belajar sejarah.', avatar: 'MS', verified: true),
+        Review(name: 'Aditya Gunawan', rating: 5, date: '3 hari lalu', comment: 'Guide-nya sangat ramah dan menjelaskan detail sejarah.', avatar: 'AG', verified: true),
+        Review(name: 'Citra Ayu', rating: 4, date: '4 hari lalu', comment: 'Ramai di weekend tapi tetap nyaman untuk berkunjung.', avatar: 'CA', verified: true),
       ],
       12: [
-        Review(
-          name: 'Komang Arya',
-          rating: 5,
-          date: '3 hari lalu',
-          comment:
-              'Tari Kecak sunset nya memukau! View tebing lautnya dramatis.',
-          avatar: 'KA',
-          verified: true,
-        ),
+        Review(name: 'Komang Arya', rating: 5, date: '3 hari lalu', comment: 'Tari Kecak sunset nya memukau! View tebing lautnya dramatis.', avatar: 'KA', verified: true),
+        Review(name: 'Wayan Suardana', rating: 5, date: '2 hari lalu', comment: 'Pertunjukannya menarik, view laut dan sunset sangat indah.', avatar: 'WS', verified: true),
+        Review(name: 'Ni Putu Lestari', rating: 4, date: '1 hari lalu', comment: 'Agak ramai tapi pengalaman tetap menyenangkan.', avatar: 'NP', verified: true),
+        Review(name: 'Made Santoso', rating: 5, date: '3 hari lalu', comment: 'Kombinasi budaya dan alam yang cantik.', avatar: 'MS', verified: true),
+        Review(name: 'Kadek Pramana', rating: 4, date: '4 hari lalu', comment: 'Spot foto di tebing sangat dramatis.', avatar: 'KP', verified: true),
       ],
       13: [
-        Review(
-          name: 'Fikri Hakim',
-          rating: 5,
-          date: '1 minggu lalu',
-          comment:
-              'Sunrise Bromo legendary! Lautan pasirnya spektakuler sekali.',
-          avatar: 'FH',
-          verified: true,
-        ),
+        Review(name: 'Fikri Hakim', rating: 5, date: '1 minggu lalu', comment: 'Sunrise Bromo legendary! Lautan pasirnya spektakuler sekali.', avatar: 'FH', verified: true),
+        Review(name: 'Rina Setiawati', rating: 5, date: '3 hari lalu', comment: 'Udara pagi segar dan view sunrise epik.', avatar: 'RS', verified: true),
+        Review(name: 'Andi Nugraha', rating: 4, date: '2 hari lalu', comment: 'Jangan lupa pakai jaket tebal, dingin banget di pagi hari.', avatar: 'AN', verified: true),
+        Review(name: 'Sari Ayu', rating: 5, date: '1 hari lalu', comment: 'Pasir dan panorama Gunung Bromo memukau!', avatar: 'SA', verified: true),
+        Review(name: 'Budi Hartono', rating: 4, date: '4 hari lalu', comment: 'Agak ramai di weekend tapi tetap nyaman.', avatar: 'BH', verified: true),
       ],
       14: [
-        Review(
-          name: 'Dina Puspita',
-          rating: 4,
-          date: '5 hari lalu',
-          comment:
-              'Air terjun tinggi dikelilingi hutan pinus. Udara sejuk dan segar!',
-          avatar: 'DP',
-          verified: true,
-        ),
+        Review(name: 'Dina Puspita', rating: 4, date: '5 hari lalu', comment: 'Air terjun tinggi dikelilingi hutan pinus. Udara sejuk dan segar!', avatar: 'DP', verified: true),
+        Review(name: 'Reni Kurnia', rating: 5, date: '3 hari lalu', comment: 'Jalur trekking rapi, cocok untuk refreshing.', avatar: 'RK', verified: true),
+        Review(name: 'Fajar Nugroho', rating: 4, date: '2 hari lalu', comment: 'Airnya bersih, cocok untuk berendam sebentar.', avatar: 'FN', verified: true),
+        Review(name: 'Maya Putri', rating: 5, date: '1 hari lalu', comment: 'Spot foto alami banyak, sangat instagramable.', avatar: 'MP', verified: true),
+        Review(name: 'Adi Pratama', rating: 4, date: '4 hari lalu', comment: 'Agak licin di musim hujan, hati-hati.', avatar: 'AP', verified: true),
       ],
       15: [
-        Review(
-          name: 'Bimo Saputra',
-          rating: 5,
-          date: '4 hari lalu',
-          comment:
-              'Kawasan heritage Jakarta! Bangunan kolonial yang terawat bagus.',
-          avatar: 'BS',
-          verified: true,
-        ),
+        Review(name: 'Bimo Saputra', rating: 5, date: '4 hari lalu', comment: 'Kawasan heritage Jakarta! Bangunan kolonial yang terawat bagus.', avatar: 'BS', verified: true),
+        Review(name: 'Rina Larasati', rating: 4, date: '2 hari lalu', comment: 'Bangunan klasik terawat dengan baik.', avatar: 'RL', verified: true),
+        Review(name: 'Dedi Nugroho', rating: 5, date: '1 hari lalu', comment: 'Spot foto vintage banyak, cocok untuk sejarah.', avatar: 'DN', verified: true),
+        Review(name: 'Citra Sari', rating: 4, date: '3 hari lalu', comment: 'Ramai di akhir pekan tapi menarik untuk wisata heritage.', avatar: 'CS', verified: true),
+        Review(name: 'Andri Setiawan', rating: 5, date: '5 hari lalu', comment: 'Kombinasi arsitektur dan sejarah sangat kental.', avatar: 'AS', verified: true),
       ],
       16: [
-        Review(
-          name: 'Sari Wulandari',
-          rating: 4,
-          date: '1 minggu lalu',
-          comment:
-              'Bangunan bersejarah dengan ribuan jendela. Atmosfernya mistis!',
-          avatar: 'SW',
-          verified: true,
-        ),
+        Review(name: 'Sari Wulandari', rating: 4, date: '1 minggu lalu', comment: 'Bangunan bersejarah dengan ribuan jendela. Atmosfernya mistis!', avatar: 'SW', verified: true),
+        Review(name: 'Rizki Hadi', rating: 5, date: '3 hari lalu', comment: 'Suasana klasiknya kuat, cocok untuk foto vintage.', avatar: 'RH', verified: true),
+        Review(name: 'Dina Putri', rating: 4, date: '2 hari lalu', comment: 'Jendela-jendela tua unik, hati-hati saat berjalan.', avatar: 'DP', verified: true),
+        Review(name: 'Andi Nugraha', rating: 5, date: '1 hari lalu', comment: 'Atmosfer mistis terasa saat senja, recommended!', avatar: 'AN', verified: true),
+        Review(name: 'Maya Laras', rating: 4, date: '4 hari lalu', comment: 'Bangunan terawat baik dan bersih.', avatar: 'ML', verified: true),
       ],
       17: [
-        Review(
-          name: 'Toni Hermawan',
-          rating: 5,
-          date: '3 hari lalu',
-          comment:
-              'Gereja tertua di Jateng! Kubah besar dan arsitektur Eropa klasik.',
-          avatar: 'TH',
-          verified: true,
-        ),
+        Review(name: 'Toni Hermawan', rating: 5, date: '3 hari lalu', comment: 'Gereja tertua di Jateng! Kubah besar dan arsitektur Eropa klasik.', avatar: 'TH', verified: true),
+        Review(name: 'Rian Putra', rating: 5, date: '2 hari lalu', comment: 'Interior gereja megah, sangat menenangkan.', avatar: 'RP', verified: true),
+        Review(name: 'Sinta Dewi', rating: 4, date: '1 hari lalu', comment: 'Pemandangan dari luar juga indah, banyak spot foto.', avatar: 'SD', verified: true),
+        Review(name: 'Budi Santoso', rating: 5, date: '4 hari lalu', comment: 'Sejarah gereja dan arsitektur sangat memukau.', avatar: 'BS', verified: true),
+        Review(name: 'Nina Larasati', rating: 4, date: '3 hari lalu', comment: 'Agak ramai saat misa tapi tetap nyaman dikunjungi.', avatar: 'NL', verified: true),
       ],
       18: [
-        Review(
-          name: 'Putu Angga',
-          rating: 5,
-          date: '2 hari lalu',
-          comment:
-              'Sawah terasering UNESCO! Sistem subak yang masih tradisional.',
-          avatar: 'PA',
-          verified: true,
-        ),
+        Review(name: 'Putu Angga', rating: 5, date: '2 hari lalu', comment: 'Sawah terasering UNESCO! Sistem subak yang masih tradisional.', avatar: 'PA', verified: true),
+        Review(name: 'Kadek Sari', rating: 5, date: '1 hari lalu', comment: 'Pemandangan hijau yang menenangkan, cocok untuk meditasi.', avatar: 'KS', verified: true),
+        Review(name: 'Made Putra', rating: 4, date: '3 hari lalu', comment: 'Jalur trekking menyenangkan, udara segar.', avatar: 'MP', verified: true),
+        Review(name: 'Ni Luh Ayu', rating: 5, date: '2 hari lalu', comment: 'Spot foto tradisional sangat Instagramable.', avatar: 'NA', verified: true),
+        Review(name: 'Wayan Pratama', rating: 4, date: '4 hari lalu', comment: 'Ramai di akhir pekan tapi tetap indah.', avatar: 'WP', verified: true),
       ],
       19: [
-        Review(
-          name: 'Clara Natalia',
-          rating: 5,
-          date: '1 minggu lalu',
-          comment:
-              'Pantai pink yang langka! Air lautnya jernih sempurna untuk snorkeling.',
-          avatar: 'CN',
-          verified: true,
-        ),
+        Review(name: 'Clara Natalia', rating: 5, date: '1 minggu lalu', comment: 'Pantai pink yang langka! Air lautnya jernih sempurna untuk snorkeling.', avatar: 'CN', verified: true),
+        Review(name: 'Ayu Lestari', rating: 5, date: '3 hari lalu', comment: 'Spot snorkeling sangat bagus, ikan dan terumbu karang jelas terlihat.', avatar: 'AL', verified: true),
+        Review(name: 'Dedi Prasetyo', rating: 4, date: '2 hari lalu', comment: 'Pantai agak ramai tapi tetap nyaman.', avatar: 'DP', verified: true),
+        Review(name: 'Rina Maharani', rating: 5, date: '1 hari lalu', comment: 'Airnya jernih, sunset cantik, sangat direkomendasikan!', avatar: 'RM', verified: true),
+        Review(name: 'Bayu Santoso', rating: 4, date: '4 hari lalu', comment: 'Cocok untuk keluarga dan anak-anak.', avatar: 'BS', verified: true),
       ],
       20: [
-        Review(
-          name: 'Ridwan Kamil',
-          rating: 4,
-          date: '6 hari lalu',
-          comment:
-              'Kawah aktif yang bisa didekati! Legenda Sangkuriang nya terkenal.',
-          avatar: 'RK',
-          verified: true,
-        ),
+        Review(name: 'Ridwan Kamil', rating: 4, date: '6 hari lalu', comment: 'Kawah aktif yang bisa didekati! Legenda Sangkuriang nya terkenal.', avatar: 'RK', verified: true),
+        Review(name: 'Toni Hadi', rating: 5, date: '3 hari lalu', comment: 'Pemandangan kawah sangat dramatis dan menakjubkan.', avatar: 'TH', verified: true),
+        Review(name: 'Rina Ayu', rating: 4, date: '2 hari lalu', comment: 'Sedikit berdebu tapi pengalaman tetap seru.', avatar: 'RA', verified: true),
+        Review(name: 'Andi Pratama', rating: 5, date: '1 hari lalu', comment: 'Spot terbaik untuk sunrise dan foto landscape.', avatar: 'AP', verified: true),
+        Review(name: 'Dewi Santika', rating: 4, date: '4 hari lalu', comment: 'Hati-hati saat mendekati kawah, tapi pemandangan worth it.', avatar: 'DS', verified: true),
       ],
     };
 
@@ -1273,4 +1198,5 @@ class TourismDetailData {
           ),
         ];
   }
+
 }
